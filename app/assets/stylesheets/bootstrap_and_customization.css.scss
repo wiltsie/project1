@@ -1,3 +1,6 @@
+//Fonts
+@import url(http://fonts.googleapis.com/css?family=Belgrano);
+
 //Customizations for Bootstrap
 $body-bg: #34495e;
 $navbar-default-bg: #bdc3c7;
@@ -6,5 +9,14 @@ $navbar-default-link-hover-color: white;
 $navbar-default-link-hover-bg: #d35400;
 $navbar-default-link-active-color: white;
 $navbar-default-link-active-bg: #d35400;
+$font-family-sans-serif: 'Belgrano', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
